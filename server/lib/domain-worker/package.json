@@ -2,5 +2,9 @@
     "name": "domain-worker",
     "description": "",
     "authors": "",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "scripts": {
+        "build": "echo building domain-worker",
+        "postbuild": "echo built domain-worker"
+    }
 }
