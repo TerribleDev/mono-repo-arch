@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node index.ts"
+    "build": "rm -rf dist && mkdir dist && cp -R *.ts dist/",
+    "start": "ts-node dist/index.ts",
+    "prestart": "yarn run build"
   },
   "dependencies": {
     "domain-worker": "1.0.0",

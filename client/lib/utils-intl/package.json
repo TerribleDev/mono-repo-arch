@@ -2,5 +2,8 @@
   "name": "utils-intl",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "lint": "echo WARN: this package needs linting setup"
+  }
 }
