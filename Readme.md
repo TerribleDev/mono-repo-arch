@@ -3,8 +3,8 @@ This is a proposed dir structure of multiple server apps, and multiple client ap
 
 
 ```
-- client front-end mono-repo
-- server server-side mono-repo
+- client front-end applications in a yarn workspace mono repo
+- server server-side applications in a yarn workspace mono repo
 ```
 
 
